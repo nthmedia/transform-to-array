@@ -1,0 +1,27 @@
+{
+    "name": "nthmedia/transform-to-array",
+    "description": "Transform multi-dimensional arrays or objects to array",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niek ten Hoopen",
+            "email": "niek@nthmedia.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nthmedia\\TransformToArray\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nthmedia\\TransformToArray\\Tests\\": "tests"
+        }
+    }
+}
